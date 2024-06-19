@@ -1,0 +1,125 @@
+::-webkit-scrollbar{
+    display: none;
+}
+h1 {
+    color: darkblue;
+}
+h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #3e363f;
+    padding-top: 70px;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    text-decoration: none;
+    color: darkblue;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu-item:hover {
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+}
+
+header {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-gradiente-blanco-vectorial-diseno-moderno_361591-4424.jpg?t=st=1718753900~exp=1718757500~hmac=9b4f066eadf084b0b4146f8f7497fb086f0977766a4740b1a70efef7ef98e310&w=1380);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: center;
+    border-color: black;
+    width:60%;
+    margin: 1% auto;
+}
+
+#acerca-de-mi {
+    text-align: justify;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos ul li a:hover {
+    text-decoration: underline;
+}
+
+#sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+footer {
+    background-color: #333;
+    background-position: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
